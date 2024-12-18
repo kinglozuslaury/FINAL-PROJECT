@@ -1,0 +1,184 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FAF3E0; /* Light background */
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Ensures vertical stacking */
+    align-items: center; /* Centers horizontally */
+}
+
+/* Title Styling */
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em; /* Large title size */
+    color: #e63946; /* Warm, inviting red color */
+    margin-top: 20px;
+}
+
+.name-style {
+    font-family: 'Times New Roman', serif; /* Classic and elegant font */
+    font-size: 24px; /* Slightly larger font */
+    font-weight: bold; /* Makes it stand out */
+    color: #004d00; /* Christmas green */
+    text-align: center; /* Centers the text */
+    letter-spacing: 2px; /* Adds a subtle spacing for elegance */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    margin-top: 10px; /* Adds space from the elements above */
+}
+
+/* Links Section Styling */
+.links {
+    margin-top: 10px; /* Space below the title */
+    display: flex; /* Places the links on the same line */
+    justify-content: center; /* Centers the links horizontally */
+    gap: 40px; /* Adds space between the links */
+    font-size: 1.2em; /* Slightly larger font for readability */
+}
+
+.link {
+    color: #228B22; /* Matches the title's red color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the links bold */
+}
+
+.link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #228B22; /* Slightly darker red on hover */
+}
+
+
+/* Box Styling for 'Light of My World' Section */
+.lit-my-world {
+    margin-top: 20px; /* Space above the box */
+    padding: 20px; /* Space inside the box */
+    border: 2px solid #e63946; /* Red border to match the title color */
+    border-radius: 10px; /* Rounded corners for the box */
+    background-color: #f9f9f9; /* Light background inside the box */
+    display: inline-block; /* Centers the box horizontally */
+    text-align: center; /* Centers the content */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+/* Things That Lit My World Styling */
+.lit-my-world {
+    margin-top: 20px; /* Adds space below the links */
+    text-align: center; /* Centers the text */
+}
+
+.lit-my-world h2 {
+    font-size: 1.8em; /* Larger heading size */
+    color: #e63946; /* Matches the title's red color */
+    margin-bottom: 10px; /* Space between the heading and list */
+}
+
+.lit-my-world ol {
+    list-style-type: decimal; /* Ordered list with numbers */
+    padding-left: 0; /* Remove default indentation */
+    text-align: left; /* Aligns the content within the div */
+    display: inline-block; /* Ensures the list stays centered */
+}
+
+.lit-my-world ul {
+    list-style-type: disc; /* Sub-items with bullets */
+    margin-left: 20px; /* Indents the unordered list */
+}
+
+/* Styling for the "Light of My World" Box */
+.light-box {
+    border: 2px solid #e63946;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin: 15px auto;
+    max-width: 1800px; /* Increased width for better spacing */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for Content Inside */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the Side Photos */
+.side-photo {
+    max-width: 200px; /* Ensures photos are responsive */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 40px; /* Adds spacing around photos */
+}
+
+/* Styling for the Ordered List */
+.light-box ol {
+    text-align: left;
+    margin: 0 20px;
+    flex: 2; /* Allow the list to take up flexible space */
+}
+
+/* Styling for the text sections */
+.text-section {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #228B22; /* Neutral gray for readability */
+    margin-bottom: 20px;
+}
+
+/* Styling for the Jesus image */
+.jesus-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.jesus-image img {
+    max-width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.jesus-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Adding spacing and a bit of emphasis to the text before the video */
+.youtube-intro {
+    text-align: center;
+    font-size: 1.2em;
+    color: #e63946;
+    margin: 20px auto;
+}
+
+/* Style for the Button */
+/* Style for the Anchor Button */
+.top-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #004d00; /* Christmas green */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.top-button:hover {
+    background-color: #006600; /* Slightly lighter green on hover */
+}
+
+
+
